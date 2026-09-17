@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3]
+
+[ext_resource type="Script" path="res://Scripts/QuestDefinition.cs" id="1_killslime"]
+
+[resource]
+script = ExtResource("1_killslime")
+QuestName = "Slay Slimes"
+Description = "Defeat 3 slimes threatening the road."
+CompletionMessage = "The slimes are no more!"
+ObjectiveType = 1
+TargetId = "Slime"
+TargetCount = 3
+AutoStart = true
+GoldReward = 40
+ExpReward = 60

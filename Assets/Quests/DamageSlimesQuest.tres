@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3]
+
+[ext_resource type="Script" path="res://Scripts/QuestDefinition.cs" id="1_dmgslime"]
+
+[resource]
+script = ExtResource("1_dmgslime")
+QuestName = "Soften the Slimes"
+Description = "Deal a total of 20 damage to slimes."
+CompletionMessage = "That softened them up!"
+ObjectiveType = 2
+TargetId = "Slime"
+TargetCount = 20
+AutoStart = true
+GoldReward = 20
+ExpReward = 30

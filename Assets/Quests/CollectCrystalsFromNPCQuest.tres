@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3 uid="uid://btlnyi5abrba0"]
+
+[ext_resource type="Script" uid="uid://c08ypb7jsou3l" path="res://Scripts/QuestDefinition.cs" id="1_actvq"]
+[ext_resource type="Resource" uid="uid://75betrfip6tp" path="res://Assets/Quests/CollectCoinsQuest.tres" id="1_fc81y"]
+[ext_resource type="Resource" path="res://Assets/Quests/CollectCrystalsQuest.tres" id="2_8v3vm"]
+
+[resource]
+script = ExtResource("1_actvq")
+QuestName = "Collect Crystals for NPC"
+Description = "The old merchant needs 3 crystals."
+CompletionMessage = "The merchant is grateful!"
+TargetId = "Crystal"
+TargetCount = 3
+AutoStart = false
+PrerequisiteQuests = Array[Resource]([ExtResource("1_fc81y"), ExtResource("2_8v3vm")])
+GoldReward = 50
+ExpReward = 100

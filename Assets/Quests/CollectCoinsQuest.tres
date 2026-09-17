@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3 uid="uid://75betrfip6tp"]
+
+[ext_resource type="Script" uid="uid://c08ypb7jsou3l" path="res://Scripts/QuestDefinition.cs" id="1_yclm8"]
+
+[resource]
+script = ExtResource("1_yclm8")
+GoldReward = 10
+ExpReward = 20
+metadata/_custom_type_script = "uid://c08ypb7jsou3l"

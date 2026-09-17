@@ -1,0 +1,16 @@
+# Godot 4.x generated files
+.godot/
+
+# Build output
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj.user
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db

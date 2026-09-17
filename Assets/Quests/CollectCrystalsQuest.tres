@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3]
+
+[ext_resource type="Script" path="res://Scripts/QuestDefinition.cs" id="1_uuu1r"]
+
+[resource]
+script = ExtResource("1_uuu1r")
+QuestName = "Collect Crystals"
+Description = "Collect 3 rare crystals."
+CompletionMessage = "Crystal collection complete!"
+TargetId = "Crystal"
+TargetCount = 3
+GoldReward = 30
+ExpReward = 50

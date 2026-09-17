@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="QuestDefinition" format=3]
+
+[ext_resource type="Script" path="res://Scripts/QuestDefinition.cs" id="1_towngate"]
+
+[resource]
+script = ExtResource("1_towngate")
+QuestName = "Reach the Town Gate"
+Description = "Walk to the glowing town gate to the east."
+CompletionMessage = "Welcome to town, traveler!"
+ObjectiveType = 3
+TargetId = "TownGate"
+TargetCount = 1
+AutoStart = true
+GoldReward = 15
+ExpReward = 25
